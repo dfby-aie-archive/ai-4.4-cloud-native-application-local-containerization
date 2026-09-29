@@ -35,13 +35,21 @@ This lesson introduces containerization, which will be used throughout the entir
 
 Before we begin containerization, you need to create the **devops-demo** Spring Boot project. This is a simple project that you will reuse across every DevOps lesson in this module.
 
-### Step 1: Create the Project Using Spring Initializr
+### Step 1: Create Your Spring Boot Project
+
+Download the zip file for the starter code for the Spring Boot project [here](https://github.com/aie-devops/devops-demo/archive/refs/tags/lesson-4.4-part-1-starter.zip).
+
+<details>
+   <summary>Alternative methods:</summary>
+Follow the instructions found in [Lesson 3.11 to create a new Spring Boot project via VS Code](https://github.com/su-ntu-sctp/ai-3.11-web-application-development-with-RESTful-APIs/blob/main/lesson.md#creation-of-spring-project-via-initializr).
+
+Otherwise, you can go to the Spring website to generate a new project.
 
 1. Go to [https://start.spring.io](https://start.spring.io)
 2. Fill in the project details:
    - **Project:** Maven
    - **Language:** Java
-   - **Spring Boot:** 3.2.0
+   - **Spring Boot:** 4.1.1
    - **Group:** `com.example`
    - **Artifact:** `devops-demo`
    - **Name:** `devops-demo`
@@ -53,6 +61,8 @@ Before we begin containerization, you need to create the **devops-demo** Spring 
 4. Click **Generate** — this downloads a `.zip` file
 5. Extract the zip to a folder on your computer
 6. Open the project in VS Code
+
+</details>
 
 ---
 

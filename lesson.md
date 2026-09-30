@@ -45,6 +45,8 @@ For both Windows and macOS users, unzip the file using this command:
 
 ```sh
 unzip <filename>.zip
+cd <your-project-folder>
+code .
 ```
 
 <details>

@@ -31,7 +31,7 @@ This lesson introduces containerization, which will be used throughout the entir
 
 ---
 
-## Step 0 - Create Your DevOps Demo Project
+## Create Your DevOps Demo Project
 
 Before we begin containerization, you need to create the **devops-demo** Spring Boot project. This is a simple project that you will reuse across every DevOps lesson in this module.
 
@@ -39,8 +39,18 @@ Before we begin containerization, you need to create the **devops-demo** Spring 
 
 Download the zip file for the starter code for the Spring Boot project [here](https://github.com/aie-devops/devops-demo/archive/refs/tags/lesson-4.4-part-1-starter.zip).
 
+For Windows users, you will need to open your File Explorer and move the zip file from your Downloads folder to your WSL home folder.
+
+For both Windows and macOS users, unzip the file using this command:
+
+```sh
+unzip <filename>.zip
+```
+
 <details>
-   <summary>Alternative methods:</summary>
+   <summary>Alternative project setup methods:</summary>
+⚠️ It is recommended that you download the zip file.
+
 Follow the instructions found in [Lesson 3.11 to create a new Spring Boot project via VS Code](https://github.com/su-ntu-sctp/ai-3.11-web-application-development-with-RESTful-APIs/blob/main/lesson.md#creation-of-spring-project-via-initializr).
 
 Otherwise, you can go to the Spring website to generate a new project.

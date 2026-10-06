@@ -37,9 +37,27 @@ Before we begin containerization, you need to create the **devops-demo** Spring 
 
 ### Step 1: Create Your Spring Boot Project
 
-Download the zip file for the starter code for the Spring Boot project [here](https://github.com/aie-devops/devops-demo/archive/refs/tags/lesson-4.4-part-1-starter.zip).
+For Windows users, make sure you open your WSL terminal (that's the one with the penguin icon). Do **NOT** use any other terminal (e.g Git Bash, etc.). For macOS users, use your preferred terminal. Run the following commands:
 
-For Windows users, you will need to open your File Explorer and move the zip file from your Downloads folder to your WSL home folder.
+Create a `playground` directory.
+
+```sh
+cd ~
+mkdir -p playground
+cd playground
+```
+
+Download the project ZIP file into the `playground` directory.
+
+```sh
+curl -L -O https://github.com/aie-devops/devops-demo/archive/refs/tags/lesson-4.4-part-1-starter.zip
+unzip lesson-4.4-part-1-starter.zip
+cd lesson-4.4-part-1-starter
+```
+
+<details>
+   <summary>Alternative project setup methods:</summary>
+Download the zip file for the starter code for the Spring Boot project [here](https://github.com/aie-devops/devops-demo/archive/refs/tags/lesson-4.4-part-1-starter.zip). For Windows users, you will need to open your File Explorer and move the zip file from your Downloads folder to your WSL home folder.
 
 For both Windows and macOS users, unzip the file using this command:
 
@@ -49,8 +67,6 @@ cd <your-project-folder>
 code .
 ```
 
-<details>
-   <summary>Alternative project setup methods:</summary>
 ⚠️ It is recommended that you download the zip file.
 
 Follow the instructions found in [Lesson 3.11 to create a new Spring Boot project via VS Code](https://github.com/su-ntu-sctp/ai-3.11-web-application-development-with-RESTful-APIs/blob/main/lesson.md#creation-of-spring-project-via-initializr).
